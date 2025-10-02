@@ -1,5 +1,5 @@
 import React from 'react'
-import ImagesBar from '../components/imagesBar'
+import ImagesBar from '../components/ImagesBar'
 
 function About() {
   return (
