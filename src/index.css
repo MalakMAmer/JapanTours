@@ -1,0 +1,87 @@
+/* Import all of Tailwind */
+@import "tailwindcss";
+
+/* Optional: add your global custom styles here */
+body {
+  @apply bg-black text-white;
+  font-family: 'Inter', sans-serif;
+}
+
+/* For smooth scroll across the site */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Reset */
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  /* Colors inspired by Japan aesthetic */
+  --sakura-pink: #f9c5d1;
+  --red-torii: #e63946;
+  --ink-black: #1a1a1a;
+  --rice-white: #faf6f0;
+  --sky-blue: #90e0ef;
+
+  /* Fonts */
+  --font-display: 'Bellefair', serif;
+  --font-heading: 'Barlow Condensed', sans-serif;
+  --font-body: 'Barlow', sans-serif;
+
+  /* Spacing scale */
+  --space-1600: 8rem;
+  --space-1200: 6rem;
+  --space-1000: 5rem;
+  --space-800: 4rem;
+  --space-600: 3rem;
+  --space-500: 2.5rem;
+  --space-400: 2rem;
+  --space-300: 1.5rem;
+  --space-200: 1rem;
+  --space-150: 0.75rem;
+  --space-100: 0.5rem;
+  --space-50: 0.25rem;
+  --space-25: 0.125rem;
+}
+
+/* Utilities */
+.toUpperCase {
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+}
+
+a, li a {
+  display: inline-block;
+  text-decoration: none;
+  transition: opacity 200ms ease;
+}
+
+a:hover, a:focus {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Typography hierarchy */
+h1 {
+  font-family: var(--font-display);
+  /* font-size: clamp(2.25rem, 5vw, 3.5rem); */
+  line-height: 1.2;
+}
+
+h2 {
+  font-family: var(--font-display);
+  /* font-size: clamp(1.75rem, 4vw, 2.5rem); */
+  line-height: 1.3;
+}
+
