@@ -1,7 +1,7 @@
 
 # JapanTours
 A landing page for a tourism website for a 10-day tour in Japan, featuring Osaka, Kyoto, and Tokyo with detailed attractions, and booking functionality.
-<br>It’s designed for users seeking a **flexible, high-quality, and stress-free tour experience**, featuring smooth navigation, clear calls to action, and visually engaging highlights.
+<br>It’s designed for users seeking a **flexible and high-quality tour experience**, featuring smooth navigation, clear calls to action, and visually engaging highlights.
 
 <details>
   <summary><h2>🌸 Project Description</h2></summary> 
