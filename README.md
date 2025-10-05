@@ -65,7 +65,7 @@ A landing page for a tourism website for a 10-day tour in Japan, featuring Osaka
 </pre>
 
 ## learning
-<ul style="color:pink;>
+<ul style="color:pink;">
   <li>Practiced React components and Tailwind styling</li>
   <li>Implemented EmailJS integration</li>
   <li>Explored motion libraries for UI animation</li>
@@ -81,10 +81,8 @@ A landing page for a tourism website for a 10-day tour in Japan, featuring Osaka
 ## Page link
 [Wepsite Link](https://japan-tours-tti1.vercel.app/)
 
-
+## Local setup
 ```bash
-# for local setup
-
 git clone https://github.com/MalakMAmer/JapanTours.git
 npm install
 npm run dev
